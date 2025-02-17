@@ -2,9 +2,11 @@ package jpabook2.jpashop2.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Getter
+@Setter
 public class Delivery {
 
     @Id

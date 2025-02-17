@@ -3,9 +3,11 @@ package jpabook2.jpashop2.domain;
 import jakarta.persistence.*;
 import jpabook2.jpashop2.domain.item.Item;
 import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Getter
+@Setter
 public class OrderItem {
 
     @Id
